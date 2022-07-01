@@ -20,10 +20,28 @@
   display: flex;
   justify-content: center;
   font-size: xx-large;
-  color: white;
   padding: 1rem;
 }
 
 .social-icon-spacing {
   padding: 1rem;
+  opacity: .65;
+  transition: 200ms;
 }
+
+.social-icon-spacing:hover{
+  opacity: 1;
+}
+
+.underline {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem
+}
+
+.underline.top {
+  position: relative; top: 130px;
+}
+
+a { color:rgb(62, 228, 198)}
